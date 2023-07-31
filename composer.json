@@ -1,0 +1,21 @@
+{
+    "name": "nemorize/indexnow",
+    "description": "PHP library for submitting website URLs using IndexNow to search engines.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Nemorize\\Indexnow\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ji Yong, Kim",
+            "email": "nemo@qroffle.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.1",
+        "guzzlehttp/guzzle": "^7.7"
+    }
+}
